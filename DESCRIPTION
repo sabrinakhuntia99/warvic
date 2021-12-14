@@ -1,0 +1,15 @@
+Package: warvic
+Type: Package
+Title: Breaks Down Statistics of War Victims
+Version: 0.1.0
+Author: Sabrina Khuntia
+Maintainer: <sabrinakhuntia@ufl.edu>
+Description: This package reads in csv files provided by the Human Rights Data Analysis Group 
+    and produces graphs breaking down the sex/gender and documentation type of deaths during a war.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    data.table
+RoxygenNote: 7.1.2
